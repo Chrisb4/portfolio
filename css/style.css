@@ -35,9 +35,8 @@ nav ul li {
 }  
 
 .main {
-    margin-top: 200px;
+    margin-top: 20vh;
     margin-left: 10%;
-    /*padding-left: 100px;*/
     color: black;
 }
 .main h1 {
@@ -64,7 +63,10 @@ nav ul li {
 }
 
 @media (max-width: 768px) {
-    .main {
-
+    .main h1 {
+        font-size: 4.5rem;
     }
+    .main ul li {
+    font-size: 1.5rem;
+}
 }

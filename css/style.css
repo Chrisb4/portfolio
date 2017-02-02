@@ -1,0 +1,82 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Bungee', cursive;
+*/
+
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    background-image: linear-gradient( to top right,  #ef002f 20%, #2b00f7 110%);
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    
+}
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /*margin-left: 50px;*/
+    margin-left: 5%;
+    height: 100px;
+    font-size: 1.2rem;
+    /*background-image: linear-gradient(#ef002f, #2b00f7);*/
+    /*background: #fefefa;*/
+    /*background: #fff;*/
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 250ms;
+}
+a:hover {
+    border-bottom: 2px solid black;
+}
+ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    /*transform: translateY(20px) rotate(45deg);*/
+    transform: translateY(20px) rotate(45deg);
+    /*transform-origin: 0 50%;*/
+    text-transform: uppercase;
+}  
+
+.main {
+    margin-top: 200px;
+    margin-left: 10%;
+    padding-left: 100px;
+    color: black;
+}
+.main h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: #fff;
+}
+.main h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: red;
+    border-bottom: 3px solid grey;
+
+}
+.main ul li {
+    text-transform: uppercase;
+}                      
+.main.projects :nth-child(2) {
+    font-family: 'Bangers', cursive;
+    font-size: 2.5rem;
+}
+.main.projects :nth-child(3) {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 2.5rem;
+}

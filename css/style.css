@@ -15,9 +15,14 @@ body {
     background-image: linear-gradient( to top right,  #ef002f 20%, #2b00f7 110%);
     font-family: 'Lato', sans-serif;
     color: #fff;
-    letter-spacing: 1px;
-    
+    letter-spacing: 1px; 
 }
+/*
+
+
+git gutters?
+
+*/
 nav {
     position: absolute;
     top: 0;
